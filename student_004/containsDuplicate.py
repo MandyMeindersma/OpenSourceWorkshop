@@ -1,8 +1,11 @@
 def containsDuplicate(nums) -> bool:
         for i in range(len(nums)):
-            for j in range(len(nums[i+1:len(nums)])):
-                if nums[i] == nums[j]:
-                    return True
+            numbers = set()
+            if i in numbers:
+                  print(numbers)
+                  return True
+            else:
+                  numbers.add(i)
         return False
 
 
