@@ -1,6 +1,6 @@
 Leet Code problem 217:
 
-# Contians Duplicate
+# Contains Duplicate
 
 Given an integer array nums, return true if any value apppears at least twice in the array, and return false if every element is distinct.
 
