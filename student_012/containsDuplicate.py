@@ -1,10 +1,11 @@
 def containsDuplicate(nums) -> bool:
+        hashBrowns = {}
         for i in range(len(nums)):
-            for j in range(len(nums[i+1:len(nums)])):
-                if nums[i] == nums[j]:
-                    return True
+                if nums[i] not in hashBrowns:
+                       hashBrowns[nums[i]]= 1
+                else:
+                        return True
         return False
-
 
 # Test Cases:
 
